@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Inter:wght@400;500&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:wght@500&family=Pacifico&display=swap');
+
+body{
+    margin: 20px 60px;
+}
+.banner{
+    background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 80%), url("/B9A1-New-Year-New-Mission/resources/banner\ _image.png");
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 5px;
+    
+    
+    
+}
+.banner h4{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    padding-top: 120px;
+    
+    
+    
+}
+.banner h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    max-width: 50%;
+    margin: auto;
+   
+
+}
+
+/* main section starts */
+
+.offer{
+    font-family: Inter;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(255, 0,0);
+}
+h1{
+   
+    font-size: 88px;
+    font-weight: 700;
+}
+h6{
+    font-size: 24px;
+    font-weight: 500;
+}
+h2{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.image{
+    width: 100%;
+    text-align: center;
+}
+.banner2{
+    border-radius: 16px;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("/B9A1-New-Year-New-Mission/resources/vectorrr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 100px;
+    
+    
+    
+}
+.new_year{
+    width: 80%;
+
+}
+
+.banner2 h3{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+.banner2 p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner2>div{
+    margin-left:80px ;
+}
+.banner2 button{
+    border: none;
+    background:transparent;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner2 button:hover{
+    font-size: larger;
+    background: #3c3a3a;
+}
